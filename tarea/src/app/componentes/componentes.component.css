@@ -1,0 +1,28 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    'cuadro1 cuadro2 cuadro3'
+    'cuadro4 cuadro5 cuadro6';
+}
+
+.imagen{
+    width: 200px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: darkslategrey solid 3px;
+}
+button{
+    background-color: #FF6B6B;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 1cm;
+    font: 1em 'Anton', sans-serif;
+    color: #FFE66D;
+}

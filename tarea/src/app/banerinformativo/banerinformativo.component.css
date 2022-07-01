@@ -19,3 +19,11 @@ nav{
     align-items: center;
 }
 
+nav .titulo{
+    font-size: 30px;
+}
+
+a{
+    color: #ffe66d;
+    text-decoration: none;
+}

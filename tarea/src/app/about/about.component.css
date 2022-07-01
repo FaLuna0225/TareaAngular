@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    width: 50%;
+}
+
+h1{
+    color: #1a535c;
+}

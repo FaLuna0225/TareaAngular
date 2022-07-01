@@ -1,0 +1,18 @@
+<section>
+    <img *ngIf="mostrarFoto" [src]="imagen" alt="">
+
+    <button (click)="ocultarFoto()">Mostras/esconder foto</button>
+
+    <h2 >Programadora: {{nombre}}</h2>
+    <p>Edad: {{edad}}</p>
+    <p>Fecha nacimiento: {{fechaNacimiento}}</p>
+
+    <ul>
+        Conocimiento en:
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Angular</li>
+    </ul>
+
+</section>

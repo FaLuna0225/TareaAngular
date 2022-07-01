@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './perfil.component.html',
   styleUrls: ['./perfil.component.css']
 })
-export class PerfilComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class PerfilComponent{
 
 }
